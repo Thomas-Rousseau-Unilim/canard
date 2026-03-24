@@ -1,5 +1,6 @@
 package canard.model;
 
+import canard.model.cancan.CoinCoin;
 import canard.model.vol.NePasVoler;
 
 public class CanardEnPlastique extends Canard{
@@ -7,7 +8,7 @@ public class CanardEnPlastique extends Canard{
 	
 	
 	public CanardEnPlastique(String nom) {
-		super(nom, new NePasVoler()	);
+		super(nom, new NePasVoler(),new	CoinCoin());
 	}
 
 	public String afficher() {

@@ -39,6 +39,8 @@ public class Simulateur {
 			System.out.println(canard.getNom() + " : " + canard.afficher());
 			System.out.println(canard.nager());
 			System.out.println(canard.effectuerUnVol());
+			System.out.println(canard.effectuerCancan() + "\n");
+			
 		}
 	}
 }
