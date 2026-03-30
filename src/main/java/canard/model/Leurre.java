@@ -6,10 +6,10 @@ import canard.model.vol.NePasVoler;
 public class Leurre extends Canard{
 	
 	public Leurre(String nom) {
-		super(nom,new NePasVoler(),new CanardMuet());
+		super(nom, new NePasVoler(),new CanardMuet());
 	}
 	
 	public String afficher() {
-		return "Je suis un Leurre";
+		return "Je suis un leurre";
 	}
 }
